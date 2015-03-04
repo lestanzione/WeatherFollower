@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Weather Follower</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_cities">CitiesActivity</string>
+
+    <string name="menu_edit_cities">Edit Cities</string>
+
+    <string name="table_header_city">City</string>
+    <string name="table_header_temperature">Temperature</string>
+
+    <string name="string_city_1">São Paulo</string>
+    <string name="string_city_2">Rio de Janeiro</string>
+    <string name="string_city_3">Curitiba</string>
+    <string name="string_city_4">Florianópolis</string>
+    <string name="string_city_5">Salvador</string>
+
+</resources>

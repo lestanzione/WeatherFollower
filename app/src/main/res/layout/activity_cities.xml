@@ -1,0 +1,105 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.stanzione.weatherfollower.CitiesActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/string_city_1"
+        android:textSize="20dp"
+        android:id="@+id/textViewCity"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="15dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/string_city_2"
+        android:textSize="20dp"
+        android:id="@+id/textViewCity2"
+        android:layout_below="@+id/textViewCity"
+        android:layout_alignLeft="@+id/textViewCity"
+        android:layout_alignStart="@+id/textViewCity"
+        android:layout_marginTop="30dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/string_city_3"
+        android:textSize="20dp"
+        android:id="@+id/textViewCity3"
+        android:layout_below="@+id/textViewCity2"
+        android:layout_alignLeft="@+id/textViewCity2"
+        android:layout_alignStart="@+id/textViewCity2"
+        android:layout_marginTop="30dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/string_city_4"
+        android:textSize="20dp"
+        android:id="@+id/textViewCity4"
+        android:layout_below="@+id/textViewCity3"
+        android:layout_alignLeft="@+id/textViewCity3"
+        android:layout_alignStart="@+id/textViewCity3"
+        android:layout_marginTop="30dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/string_city_5"
+        android:textSize="20dp"
+        android:id="@+id/textViewCity5"
+        android:layout_below="@+id/textViewCity4"
+        android:layout_alignLeft="@+id/textViewCity4"
+        android:layout_alignStart="@+id/textViewCity4"
+        android:layout_marginTop="30dp" />
+
+    <Switch
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/switch1"
+        android:layout_marginRight="45dp"
+        android:layout_alignBottom="@+id/textViewCity"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <Switch
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/switch2"
+        android:layout_alignBottom="@+id/textViewCity2"
+        android:layout_alignRight="@+id/switch1"
+        android:layout_alignEnd="@+id/switch1" />
+
+    <Switch
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/switch3"
+        android:layout_above="@+id/textViewCity4"
+        android:layout_alignRight="@+id/switch2"
+        android:layout_alignEnd="@+id/switch2" />
+
+    <Switch
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/switch4"
+        android:layout_alignBottom="@+id/textViewCity4"
+        android:layout_alignRight="@+id/switch3"
+        android:layout_alignEnd="@+id/switch3" />
+
+    <Switch
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/switch5"
+        android:layout_alignBottom="@+id/textViewCity5"
+        android:layout_alignRight="@+id/switch4"
+        android:layout_alignEnd="@+id/switch4" />
+
+</RelativeLayout>
